@@ -3,9 +3,14 @@ title: Kelola Refund
 description: Panduan mengelola permintaan refund dan pengembalian dana LeviCamp
 ---
 
+import { Step, Steps } from 'fumadocs-ui/components/steps';
+
+
 # Kelola Refund
 
 Fitur Kelola Refund memungkinkan admin untuk memproses permintaan pengembalian dana dari customer yang membatalkan pemesanan camping di LeviCamp sesuai dengan kebijakan yang berlaku.
+
+![Refund Management](/admin-dashboard/refund-management.jpg)
 
 ## Daftar Permintaan Refund
 
@@ -94,66 +99,37 @@ Setiap permintaan refund menampilkan:
 
 ## Workflow Refund
 
-### 1️⃣ Customer Request
+<Steps>
+
+<Step>
+### Customer Request
 - Customer submit refund request
-- Upload dokumen pendukung jika perlu
+- Customer mengisi form refund request
 - Sistem auto-calculate berdasarkan policy
 - Email konfirmasi ke customer
+</Step>
 
-### 2️⃣ Admin Review
+<Step>
+### Admin Review
 - Admin review dalam 24 jam
-- Verifikasi dokumen dan alasan
+- Verifikasi form dan alasan
 - Approve/reject dengan alasan
 - Update status di sistem
+</Step>
 
-### 3️⃣ Processing
+<Step>
+### Processing
 - Approved refund masuk queue processing
 - Finance team proses pembayaran
 - Update status ke "Processing"
 - Tracking number untuk customer
+</Step>
 
-### 4️⃣ Completion
+<Step>
+### Completion
 - Refund berhasil dikirim
 - Status update ke "Completed"
 - Email konfirmasi ke customer
 - Case closed dengan feedback request
-
-## Monitoring & Reporting
-
-### 📊 Refund Analytics
-- **Total Refund Amount**: Jumlah total refund per periode
-- **Refund Rate**: Persentase refund vs total booking
-- **Common Reasons**: Alasan pembatalan terbanyak
-- **Processing Time**: Average waktu proses
-
-### 📈 Trend Analysis
-- **Monthly Refund Trend**: Trend bulanan
-- **Seasonal Pattern**: Pola musiman pembatalan
-- **Customer Behavior**: Pola customer yang sering refund
-- **Policy Impact**: Dampak perubahan kebijakan
-
-### 💹 Financial Impact
-- **Revenue Loss**: Kerugian dari refund
-- **Processing Cost**: Biaya operasional refund
-- **Customer Retention**: Customer yang kembali booking
-- **Voucher Usage**: Penggunaan voucher refund
-
-## Customer Communication
-
-### 📧 Email Templates
-- **Refund Approved**: Template approval
-- **Refund Rejected**: Template rejection dengan solusi
-- **Processing Update**: Status update progress
-- **Completed Notification**: Konfirmasi selesai
-
-### 💬 Live Chat Support
-- **Refund Inquiry**: Chat support untuk pertanyaan
-- **Documentation Help**: Bantuan upload dokumen
-- **Alternative Solution**: Tawarkan opsi lain
-- **Escalation**: Escalate ke manager jika perlu
-
-### 📞 Phone Support
-- **Urgent Cases**: Kasus emergency via telepon
-- **Complex Cases**: Kasus yang butuh penjelasan detail
-- **Senior Customer**: VIP customer service
-- **Complaint Handling**: Handle komplain refund 
+</Step>
+</Steps>
