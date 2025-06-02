@@ -1,0 +1,6 @@
+{
+	"title": "LeviCamp Website",
+	"description": "Panduan lengkap website LeviCamp untuk customer",
+	"root": true,
+	"pages": ["reservation", "reschedule", "refund"]
+}

@@ -1,0 +1,159 @@
+---
+title: Kelola Refund
+description: Panduan mengelola permintaan refund dan pengembalian dana LeviCamp
+---
+
+# Kelola Refund
+
+Fitur Kelola Refund memungkinkan admin untuk memproses permintaan pengembalian dana dari customer yang membatalkan pemesanan camping di LeviCamp sesuai dengan kebijakan yang berlaku.
+
+## Daftar Permintaan Refund
+
+### 📋 Tampilan Utama
+- **Tabel Refund**: Menampilkan semua permintaan refund
+- **Status Processing**: Pending, approved, rejected, completed
+- **Filter Tanggal**: Filter berdasarkan tanggal request
+- **Pencarian**: Cari berdasarkan ID booking atau nama customer
+
+### 💰 Informasi Refund
+Setiap permintaan refund menampilkan:
+- **Refund ID**: Nomor unik permintaan refund
+- **Booking ID**: ID pemesanan yang diminta refund
+- **Customer**: Nama dan email customer
+- **Amount**: Jumlah yang diminta refund
+- **Reason**: Alasan permintaan refund
+- **Request Date**: Tanggal permintaan dibuat
+- **Status**: Status pemrosesan saat ini
+- **Aksi**: Approve, reject, atau process
+
+## Memproses Refund
+
+### 📝 Review Permintaan
+- **Check Booking Details**: Review detail pemesanan asli
+- **Verify Reason**: Verifikasi alasan pembatalan
+- **Policy Check**: Cek sesuai kebijakan refund
+- **Calculate Amount**: Hitung jumlah refund yang layak
+
+### ✅ Approval Process
+- **Auto Calculation**: Sistem hitung otomatis berdasarkan policy
+- **Manual Adjustment**: Admin bisa adjust jumlah jika perlu
+- **Approval Notes**: Catatan untuk customer
+- **Notification**: Kirim email approval ke customer
+
+### ❌ Rejection Process
+- **Rejection Reason**: Berikan alasan penolakan yang jelas
+- **Policy Reference**: Rujuk ke kebijakan yang berlaku
+- **Alternative Solution**: Tawarkan solusi alternatif
+- **Customer Communication**: Komunikasi yang empati
+
+## Kebijakan Refund
+
+### 📅 Berdasarkan Waktu Pembatalan
+
+#### Full Refund (100%)
+- **7+ hari sebelum check-in**: Refund penuh
+- **Force Majeure**: Bencana alam, pandemi
+- **Kesalahan Sistem**: Error booking dari platform
+- **Pembatalan dari LeviCamp**: Maintenance, unavailable
+
+#### Partial Refund (50%)
+- **3-6 hari sebelum check-in**: Refund 50%
+- **Customer Emergency**: Sakit, kecelakaan dengan dokumen
+- **Weather Extreme**: Cuaca buruk yang membahayakan
+
+#### No Refund (0%)
+- **0-2 hari sebelum check-in**: Tidak ada refund
+- **No Show**: Customer tidak datang tanpa konfirmasi
+- **Violation**: Melanggar terms and conditions
+
+### 🎯 Kategori Khusus
+- **Medical Emergency**: Dengan surat dokter
+- **Family Emergency**: Dengan dokumen pendukung
+- **Natural Disaster**: Force majeure events
+- **Government Restriction**: Kebijakan pemerintah
+
+## Metode Refund
+
+### 💳 Via Payment Gateway
+- **Credit/Debit Card**: Refund ke kartu yang sama
+- **E-Wallet**: OVO, GoPay, DANA, ShopeePay
+- **Bank Transfer**: Transfer langsung ke rekening
+- **Processing Time**: 3-7 hari kerja
+
+### 🏪 Voucher Refund
+- **LeviCamp Credit**: Credit untuk booking selanjutnya
+- **Extended Validity**: Berlaku hingga 1 tahun
+- **Transferable**: Bisa dipindahkan ke orang lain
+- **Bonus Credit**: Tambahan 10% sebagai kompensasi
+
+### 💰 Cash Refund
+- **Office Pickup**: Ambil cash di kantor LeviCamp
+- **Agent Delivery**: Delivery via agent tertentu
+- **Processing Fee**: Potongan biaya admin
+- **ID Verification**: Wajib bawa ID yang valid
+
+## Workflow Refund
+
+### 1️⃣ Customer Request
+- Customer submit refund request
+- Upload dokumen pendukung jika perlu
+- Sistem auto-calculate berdasarkan policy
+- Email konfirmasi ke customer
+
+### 2️⃣ Admin Review
+- Admin review dalam 24 jam
+- Verifikasi dokumen dan alasan
+- Approve/reject dengan alasan
+- Update status di sistem
+
+### 3️⃣ Processing
+- Approved refund masuk queue processing
+- Finance team proses pembayaran
+- Update status ke "Processing"
+- Tracking number untuk customer
+
+### 4️⃣ Completion
+- Refund berhasil dikirim
+- Status update ke "Completed"
+- Email konfirmasi ke customer
+- Case closed dengan feedback request
+
+## Monitoring & Reporting
+
+### 📊 Refund Analytics
+- **Total Refund Amount**: Jumlah total refund per periode
+- **Refund Rate**: Persentase refund vs total booking
+- **Common Reasons**: Alasan pembatalan terbanyak
+- **Processing Time**: Average waktu proses
+
+### 📈 Trend Analysis
+- **Monthly Refund Trend**: Trend bulanan
+- **Seasonal Pattern**: Pola musiman pembatalan
+- **Customer Behavior**: Pola customer yang sering refund
+- **Policy Impact**: Dampak perubahan kebijakan
+
+### 💹 Financial Impact
+- **Revenue Loss**: Kerugian dari refund
+- **Processing Cost**: Biaya operasional refund
+- **Customer Retention**: Customer yang kembali booking
+- **Voucher Usage**: Penggunaan voucher refund
+
+## Customer Communication
+
+### 📧 Email Templates
+- **Refund Approved**: Template approval
+- **Refund Rejected**: Template rejection dengan solusi
+- **Processing Update**: Status update progress
+- **Completed Notification**: Konfirmasi selesai
+
+### 💬 Live Chat Support
+- **Refund Inquiry**: Chat support untuk pertanyaan
+- **Documentation Help**: Bantuan upload dokumen
+- **Alternative Solution**: Tawarkan opsi lain
+- **Escalation**: Escalate ke manager jika perlu
+
+### 📞 Phone Support
+- **Urgent Cases**: Kasus emergency via telepon
+- **Complex Cases**: Kasus yang butuh penjelasan detail
+- **Senior Customer**: VIP customer service
+- **Complaint Handling**: Handle komplain refund 

@@ -1,0 +1,14 @@
+{
+	"title": "Admin Dashboard",
+	"description": "Panduan lengkap Admin Dashboard LeviCamp",
+	"root": true,
+	"pages": [
+		"overview",
+		"login",
+		"booking-management",
+		"tent-management",
+		"admin-management",
+		"article-management",
+		"refund-management"
+	]
+}
